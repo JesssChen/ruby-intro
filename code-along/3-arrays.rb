@@ -3,10 +3,43 @@
 # ruby 3-arrays.rb
 
 # Arrays are lists of things
+favorite_foods = ["tacos", "ice cream", "kale"]
+p favorite_foods
+#p is print, only print out the result
+
+we_have_to_go_back =[4,5,15,16,23,42]
+p we_have_to_go_back
+#puts we_have_to_go_back
+
+mixed_array=["tacos", 12, true]
+p mixed_array
 
 # Accessing the array
+shopping_list = ["coffee","baby wipes","diappers","beer"]
+p shopping_list[1]
+#zero-based array, the first position is zero
+p shopping_list[-2]
+#backwards
+
 
 # Add to the array
+shopping_list2 = ["bath toys"]
+p shopping_list + shopping_list2
+
+## sending the thing into the shopping list
+shopping_list << "orange"
+
+##pusshing
+shopping_list.push("strawberry")
+p shopping_list
+
+p shopping_list.size
+p shopping_list.count
+
+
+
+
+
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html
